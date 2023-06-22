@@ -58,7 +58,7 @@
 
   <div class="l-navbar" id="nav-bar">
     <nav class="nav">
-      <div> <a href="dash_user.php" class="nav_logo"> <i class='bx bx-cloud-lightning nav_logo-icon'></i> <span class="nav_logo-name">SepedaListrik</span> </a>
+      <div> <a href="dash_user.php" class="nav_logo"> <i class='bx bx-cycling nav_logo-icon'></i> <span class="nav_logo-name">SmartBike</span> </a>
         <div class="nav_list">
           <a href="dash_user.php" class="nav_link"> <i class='bx bx-home nav_icon'></i> <span class="nav_name">Dashboard</span> </a>
           <a href="#" class="nav_link"> <i class='bx bx-user nav_icon'></i> <span class="nav_name">User</span> </a>
