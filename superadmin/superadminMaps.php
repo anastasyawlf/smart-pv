@@ -48,7 +48,7 @@
 
   ?>
 
-  <header class="header" id="header" style="box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5)">
+  <header class=" header" id="header" style="box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5)">
     <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle" style="color: #325662"></i> </div>
     <div href="#"> <a><?php echo $_SESSION['username']; ?></a> <i class='bx bx-user-circle headernav_icon' style="color: #325662"></i> </div>
   </header>
@@ -56,20 +56,19 @@
 
   <div class="l-navbar" id="nav-bar" style="background-color: #325662">
     <nav class="nav">
-      <div> <a href="#" class="nav_logo"> <i class='bx bx-cycling nav_logo-icon'></i> <span class="nav_logo-name">SmartBike</span> </a>
+      <div> <a href="dash_user.php" class="nav_logo"> <i class='bx bx-cycling nav_logo-icon'></i> <span class="nav_logo-name">SmartBike</span> </a>
         <div class="nav_list">
-          <a href="#" class="nav_link active"> <i class='bx bx-home nav_icon'></i> <span class="nav_name">Dashboard</span> </a>
-          <a href="userMaps.php" class="nav_link"> <i class='bx bx-map nav_icon'></i> <span class="nav_name">Maps</span> </a>
-          <a href="userStats.php" class="nav_link"> <i class='bx bx-bar-chart-alt nav_icon'></i> <span class="nav_name">Stats</span> </a>
+          <a href="dash_superadmin.php" class="nav_link"> <i class='bx bx-home nav_icon'></i> <span class="nav_name">Dashboard</span> </a>
+          <a href="#" class="nav_link"> <i class='bx bx-user nav_icon'></i> <span class="nav_name">User</span> </a>
+          <a href="superadminMaps.php" class="nav_link active"> <i class='bx bx-map nav_icon'></i> <span class="nav_name">Maps</span> </a>
+          <a href="superadminStats.php" class="nav_link"> <i class='bx bx-bar-chart-alt nav_icon'></i> <span class="nav_name">Stats</span> </a>
         </div>
       </div> <a href="logout.php" class="nav_link"> <i class='bx bx-log-out nav_icon'></i> <span class="nav_name">SignOut</span> </a>
     </nav>
   </div>
   <!--Container Main start-->
-  <div class="height-100 bg-white">
-    <h4>Halaman User</h4>
-    <p>Halo <b><?php echo $_SESSION['username']; ?></b> Anda telah login sebagai <b><?php echo $_SESSION['role']; ?></b>.</p>
-    <a href="../logout.php">LOGOUT</a>
+  <div class="height-100 bg-light">
+    <h4>Location Tracking</h4>
   </div>
   <!--Container Main end-->
 

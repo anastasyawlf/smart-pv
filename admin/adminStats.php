@@ -35,6 +35,8 @@
   <!-- sidebar -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+  <script src='../dataVisual/plotly.js'></script>
 </head>
 
 <body id="body-pd" style="background-color:#F8F9FA">
@@ -56,20 +58,20 @@
 
   <div class="l-navbar" id="nav-bar" style="background-color: #325662">
     <nav class="nav">
-      <div> <a href="#" class="nav_logo"> <i class='bx bx-cycling nav_logo-icon'></i> <span class="nav_logo-name">SmartBike</span> </a>
+      <div> <a href="dash_admin.php" class="nav_logo"> <i class='bx bx-cycling nav_logo-icon'></i> <span class="nav_logo-name">SmartBike</span> </a>
         <div class="nav_list">
-          <a href="#" class="nav_link active"> <i class='bx bx-home nav_icon'></i> <span class="nav_name">Dashboard</span> </a>
-          <a href="userMaps.php" class="nav_link"> <i class='bx bx-map nav_icon'></i> <span class="nav_name">Maps</span> </a>
-          <a href="userStats.php" class="nav_link"> <i class='bx bx-bar-chart-alt nav_icon'></i> <span class="nav_name">Stats</span> </a>
+          <a href="dash_admin.php" class="nav_link"> <i class='bx bx-home nav_icon'></i> <span class="nav_name">Dashboard</span> </a>
+          <a href="#" class="nav_link"> <i class='bx bx-user nav_icon'></i> <span class="nav_name">User</span> </a>
+          <a href="adminMaps.php" class="nav_link"> <i class='bx bx-map nav_icon'></i> <span class="nav_name">Maps</span> </a>
+          <a href="adminStats.php" class="nav_link active"> <i class='bx bx-bar-chart-alt nav_icon'></i> <span class="nav_name">Stats</span> </a>
         </div>
-      </div> <a href="logout.php" class="nav_link"> <i class='bx bx-log-out nav_icon'></i> <span class="nav_name">SignOut</span> </a>
+      </div> <a href="../logout.php" class="nav_link"> <i class='bx bx-log-out nav_icon'></i> <span class="nav_name">SignOut</span> </a>
     </nav>
   </div>
   <!--Container Main start-->
-  <div class="height-100 bg-white">
-    <h4>Halaman User</h4>
-    <p>Halo <b><?php echo $_SESSION['username']; ?></b> Anda telah login sebagai <b><?php echo $_SESSION['role']; ?></b>.</p>
-    <a href="../logout.php">LOGOUT</a>
+  <div class="height-100 bg-light">
+    <h4>Statistik</h4>
+    <div style="margin: auto; padding: auto;" id="stats"></div>
   </div>
   <!--Container Main end-->
 
@@ -128,6 +130,8 @@
       // Your code to run since DOM is loaded and ready
     });
   </script>
+
+  <script src="../dataVisual/data.js"></script>
 </body>
 
 </html>
