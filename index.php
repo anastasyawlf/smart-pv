@@ -37,7 +37,7 @@
    <!-- header section start -->
    <div class="header_section header_bg">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-         <a href="index.html" class="logo"><img src="images/logo-kecil.png"></a>
+         <a href="index.html" class="logo"><img src="images/logo-baruu.png"></a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
          </button>
@@ -68,6 +68,19 @@
                            <div class="image_1"><img src="images/img-1.png"></div>
                         </div>
                         <div class="col-md-5">
+                           <h1 class="banner_taital">Smart Bike</h1>
+                           <!-- <p class="banner_text">Deskripsi </p> -->
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-7">
+                           <div class="image_1"><img src="images/img-13.png"></div>
+                        </div>
+                        <div class="col-md-5">
                            <h1 class="banner_taital">Real Time Monitoring</h1>
                            <!-- <p class="banner_text">Deskripsi </p> -->
                         </div>
@@ -78,23 +91,10 @@
                   <div class="container">
                      <div class="row">
                         <div class="col-md-7">
-                           <div class="image_1"><img src="images/img-1.png"></div>
+                           <div class="image_1"><img src="images/img-12.png"></div>
                         </div>
                         <div class="col-md-5">
-                           <h1 class="banner_taital">Monitoring Charger Hybrid</h1>
-                           <!-- <p class="banner_text">Deskripsi </p> -->
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <div class="row">
-                        <div class="col-md-7">
-                           <div class="image_1"><img src="images/img-1.png"></div>
-                        </div>
-                        <div class="col-md-5">
-                           <h1 class="banner_taital">Monitoring Tracking</h1>
+                           <h1 class="banner_taital">Tracking Location</h1>
                            <!-- <p class="banner_text">Deskripsi </p> -->
                         </div>
                      </div>
@@ -115,8 +115,8 @@
    <!-- cycle section start -->
    <div class="cycle_section layout_padding">
       <div class="container">
-         <h1 class="cycle_taital">Our cycle</h1>
-         <p class="cycle_text">It is a long established fact that a reader will be distracted by the </p>
+         <h1 class="cycle_taital">Smart Bike</h1>
+         <p class="cycle_text">Sepeda listrik yang dilengkapi dengan sistem monitoring dan tracking lokasi secara real time</p>
          <div class="cycle_section_2 layout_padding">
             <div class="row">
                <div class="col-md-6">
@@ -354,7 +354,7 @@
    <!-- copyright section start -->
    <div class="copyright_section">
       <div class="container">
-         <p class="copyright_text">Copyright 2019 All Right Reserved By.
+         <p class="copyright_text">Copyright 2019 All Right Reserved By Baskara
       </div>
    </div>
    <!-- copyright section end -->
