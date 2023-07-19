@@ -126,7 +126,7 @@
                   </div>
                </div>
                <div class="col-md-6">
-                  <h1 class="cycles_text">Cycles</h1>
+                  <h1 class="cycles_text">Smart Bike</h1>
                   <p class="lorem_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
                   <!-- <div class="btn_main">
                         <div class="buy_bt"><a href="#">Buy Now</a></div>
@@ -138,7 +138,7 @@
          <div class="cycle_section_3 layout_padding">
             <div class="row">
                <div class="col-md-6">
-                  <h1 class="cycles_text">Stylis Cycle</h1>
+                  <h1 class="cycles_text">Real Time Monitoring</h1>
                   <p class="lorem_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
                   <!-- <div class="btn_main">
                         <div class="buy_bt"><a href="#">Buy Now</a></div>
@@ -162,7 +162,7 @@
                   </div>
                </div>
                <div class="col-md-6">
-                  <h1 class="cycles_text">Mordern <br>Cycle</h1>
+                  <h1 class="cycles_text">Tracking Location</h1>
                   <p class="lorem_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
                   <!-- <div class="btn_main">
                         <div class="buy_bt"><a href="#">Buy Now</a></div>
