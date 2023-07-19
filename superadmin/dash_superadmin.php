@@ -59,8 +59,8 @@
         <div class="nav_list">
           <a href="#" class="nav_link active"> <i class='bx bx-home nav_icon'></i> <span class="nav_name">Dashboard</span> </a>
           <a href="#" class="nav_link"> <i class='bx bx-user nav_icon'></i> <span class="nav_name">User</span> </a>
-          <a href="../superadmin/adminMaps.php" class="nav_link"> <i class='bx bx-map nav_icon'></i> <span class="nav_name">Maps</span> </a>
-          <a href="../superadmin/adminStats.php" class="nav_link"> <i class='bx bx-bar-chart-alt nav_icon'></i> <span class="nav_name">Stats</span> </a>
+          <a href="superadminMaps.php" class="nav_link"> <i class='bx bx-map nav_icon'></i> <span class="nav_name">Maps</span> </a>
+          <a href="superadminStats.php" class="nav_link"> <i class='bx bx-bar-chart-alt nav_icon'></i> <span class="nav_name">Stats</span> </a>
         </div>
       </div> <a href="../logout.php" class="nav_link"> <i class='bx bx-log-out nav_icon'></i> <span class="nav_name">SignOut</span> </a>
     </nav>
